@@ -1,0 +1,280 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.apple{
+    height: 150px;
+}
+.appleone{
+    margin-left: 100px;
+    gap: 5px;
+    height: 140px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.appletwo{
+    font-size: 50px;
+    font-weight: 500;
+}
+.applethree{
+    font-size: 20px;
+    font-weight: 300;
+}
+.mango{
+    background-color: rgb(84,57,126);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    /* gap: px; */
+}
+.mangoone{
+    color: aliceblue;
+    margin-left: 50px;
+    font-size: 20px;
+}
+select{
+    font-size: 17px;
+    margin-left: 14px;
+background-color: blueviolet;
+color: aliceblue;
+}
+.orange{
+display: flex;
+justify-content: center;
+padding: 40px;
+}
+.orangeone{
+    background-image: url(../pics/wedding);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 500px;
+width: 1000px;
+display: flex;
+align-items: flex-end;
+
+}
+.orangetwo{
+     padding: 15px;
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+    height: 200px;
+    width: 400px;
+}
+.orangethree{
+height: 50px;
+font-size: 30px;
+font-weight: 500;
+background-color: rgba(114,94,140,.6);
+}
+.orangefour{
+    font-size: 20px;
+color: white;
+font-weight: 400;
+background-color: rgba(69,66,63,.4);
+}
+.banana{
+    gap: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.cover{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.bananaone{
+    font-weight: 600;
+}
+.pine{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.pineone{
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pinetwo{
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+.litchi{
+    height: 300px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.litchione{
+    height: 400px;
+    width: 400px;
+}
+.redone{
+    height: 50px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.one{
+    display: flex;
+    align-items:center ;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid grey;
+    /* border-bottom: white; */
+}
+.two{
+    font-size: 20px;
+}
+.three{
+    background-image: url(../pics/pngwing.com\ \(7\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 1px solid green; */
+    height: 30px;
+    width: 30px;
+}
+.redtwo{
+    height: 300px;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+}
+.four{
+     padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+.image{
+    height:60px ;
+    width: 80px;
+    border: 1px solid black;
+
+}
+#imgone{
+    background-image: url(../pics/scene2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imgtwo{
+    background-image: url(../pics/scene1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imgthree{
+    background-image: url(../pics/scene3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.five{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(84,57,126);
+}
+.pink{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.pinkone{ 
+    color: rgb(84,57,126);
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.pinktwo{
+    font-size: 20px;
+    color: gray;
+}
+.pinkthree{
+border: 1px solid gray;
+height: 50px;
+width: 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.green{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+.greenone{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(84,57,126);
+}
+.greentwo{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    height: 30px;
+    width: 300px;
+}
+.searchimg{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    background-image: url(../pics/pngwing.com\ \(8\).png);
+    background-color:rgb(84,57,126) ;
+}
+.greenthree{
+    font-size: 20px;
+    color: gray;
+}
+.gauva{ 
+    color: aliceblue;
+    gap: 60px;
+    height: 50px;
+    background-color: rgb(84,57,126);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.gauvaleft{ 
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.gauvaright{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.gray{
+    color: gray;
+}
