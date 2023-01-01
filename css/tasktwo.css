@@ -140,8 +140,8 @@ background-color: rgba(69,66,63,.4);
     align-items:center ;
     height: 50px;
     font-size: 20px;
-    border: 1px solid grey;
-    /* border-bottom: white; */
+    border: 1px solid grey; 
+    border-bottom:2px solid white;
 }
 .two{
     font-size: 20px;
@@ -250,6 +250,9 @@ input{
     border: 1px solid black;
     background-image: url(../pics/pngwing.com\ \(8\).png);
     background-color:rgb(84,57,126) ;
+    background-size: contain;
+background-repeat: no-repeat;
+
 }
 .greenthree{
     font-size: 20px;
