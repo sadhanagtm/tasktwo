@@ -1,11 +1,13 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
-.apple{
+
+.apple {
     height: 150px;
 }
-.appleone{
+
+.appleone {
     margin-left: 100px;
     gap: 5px;
     height: 140px;
@@ -15,69 +17,80 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.appletwo{
+
+.appletwo {
     font-size: 50px;
     font-weight: 500;
 }
-.applethree{
+
+.applethree {
     font-size: 20px;
     font-weight: 300;
 }
-.mango{
-    background-color: rgb(84,57,126);
+
+.mango {
+    background-color: rgb(84, 57, 126);
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 60px;
     /* gap: px; */
 }
-.mangoone{
+
+.mangoone {
     color: aliceblue;
     margin-left: 50px;
     font-size: 20px;
 }
-select{
+
+select {
     font-size: 17px;
     margin-left: 14px;
-background-color: blueviolet;
-color: aliceblue;
+    background-color: blueviolet;
+    color: aliceblue;
 }
-.orange{
-display: flex;
-justify-content: center;
-padding: 40px;
+
+.orange {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
-.orangeone{
+
+.orangeone {
     background-image: url(../pics/wedding);
     background-repeat: no-repeat;
     background-size: cover;
-height: 500px;
-width: 1000px;
-display: flex;
-align-items: flex-end;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    align-items: flex-end;
 
 }
-.orangetwo{
-     padding: 15px;
+
+.orangetwo {
+    padding: 15px;
     display: flex;
     flex-direction: column;
-gap: 10px;
+    gap: 10px;
     height: 200px;
     width: 400px;
 }
-.orangethree{
-height: 50px;
-font-size: 30px;
-font-weight: 500;
-background-color: rgba(114,94,140,.6);
+
+.orangethree {
+    height: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgba(114, 94, 140, .6);
 }
-.orangefour{
+
+.orangefour {
     font-size: 20px;
-color: white;
-font-weight: 400;
-background-color: rgba(69,66,63,.4);
+    color: white;
+    font-weight: 400;
+    background-color: rgba(69, 66, 63, .4);
 }
-.banana{
+
+.banana {
     gap: 30px;
     height: 200px;
     display: flex;
@@ -86,21 +99,25 @@ background-color: rgba(69,66,63,.4);
     justify-content: center;
 
 }
-.cover{
+
+.cover {
     gap: 5px;
     display: flex;
     flex-direction: row;
 }
-.bananaone{
+
+.bananaone {
     font-weight: 600;
 }
-.pine{
+
+.pine {
     height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
 }
-.pineone{
+
+.pineone {
     border: 1px solid gray;
     width: 100%;
     display: flex;
@@ -108,13 +125,15 @@ background-color: rgba(69,66,63,.4);
     align-items: center;
     position: relative;
 }
-.pinetwo{
+
+.pinetwo {
     display: flex;
     position: absolute;
     height: 40px;
     width: 40px;
 }
-.litchi{
+
+.litchi {
     height: 300px;
     gap: 20px;
     display: flex;
@@ -123,30 +142,35 @@ background-color: rgba(69,66,63,.4);
     align-items: center;
     padding: 90px;
 }
-.litchione{
+
+.litchione {
     height: 400px;
     width: 400px;
 }
-.redone{
+
+.redone {
     height: 50px;
     gap: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
-  
+
 }
-.one{
+
+.one {
     display: flex;
-    align-items:center ;
+    align-items: center;
     height: 50px;
     font-size: 20px;
-    border: 1px solid grey; 
-    border-bottom:2px solid white;
+    border: 1px solid grey;
+    border-bottom: 2px solid white;
 }
-.two{
+
+.two {
     font-size: 20px;
 }
-.three{
+
+.three {
     background-image: url(../pics/pngwing.com\ \(7\).png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,130 +178,603 @@ background-color: rgba(69,66,63,.4);
     height: 30px;
     width: 30px;
 }
-.redtwo{
+
+.redtwo {
     height: 300px;
-border: 1px solid black;
-display: flex;
-flex-direction: column;
-gap: 10px;
-padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
 }
-.four{
-     padding: 10px;
+
+.four {
+    padding: 10px;
     height: 80px;
     display: flex;
     align-items: center;
     gap: 20px;
     flex-direction: row;
 }
-.image{
-    height:60px ;
+
+.image {
+    height: 60px;
     width: 80px;
     border: 1px solid black;
 
 }
-#imgone{
+
+#imgone {
     background-image: url(../pics/scene2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#imgtwo{
+
+#imgtwo {
     background-image: url(../pics/scene1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#imgthree{
+
+#imgthree {
     background-image: url(../pics/scene3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.detail{
+
+.detail {
     display: flex;
     flex-direction: column;
 }
-.five{
+
+.five {
     font-size: 20px;
     font-weight: 500;
-    color: rgb(84,57,126);
+    color: rgb(84, 57, 126);
 }
-.pink{
+
+.pink {
     padding: 10px;
     display: flex;
     flex-direction: column;
 
     gap: 20px;
 }
-.pinkone{ 
-    color: rgb(84,57,126);
+
+.pinkone {
+    color: rgb(84, 57, 126);
     margin-top: 10px;
     font-size: 35px;
     font-weight: 400;
 }
-.pinktwo{
+
+.pinktwo {
     font-size: 20px;
     color: gray;
 }
-.pinkthree{
-border: 1px solid gray;
-height: 50px;
-width: 350px;
-display: flex;
-align-items: center;
-justify-content: center;
+
+.pinkthree {
+    border: 1px solid gray;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.green{
+
+.green {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 15px;
 }
-.greenone{
+
+.greenone {
     font-size: 40px;
     font-weight: 400;
-    color: rgb(84,57,126);
+    color: rgb(84, 57, 126);
 }
-.greentwo{
+
+.greentwo {
     display: flex;
     flex-direction: row;
 }
-input{
+
+input {
     height: 30px;
     width: 300px;
 }
-.searchimg{
+
+.searchimg {
     height: 30px;
     width: 30px;
     border: 1px solid black;
     background-image: url(../pics/pngwing.com\ \(8\).png);
-    background-color:rgb(84,57,126) ;
+    background-color: rgb(84, 57, 126);
     background-size: contain;
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
 
 }
-.greenthree{
+
+.greenthree {
     font-size: 20px;
     color: gray;
 }
-.gauva{ 
+
+.gauva {
     color: aliceblue;
     gap: 60px;
     height: 50px;
-    background-color: rgb(84,57,126);
+    background-color: rgb(84, 57, 126);
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.gauvaleft{ 
+
+.gauvaleft {
     padding: 10px;
     gap: 20px;
     display: flex;
     flex-direction: row;
 }
-.gauvaright{
+
+.gauvaright {
     margin-left: 300px;
     display: flex;
     flex-direction: row;
 }
-.gray{
+
+.gray {
     color: gray;
 }
+
+/* media query */
+@media (max-width: 768px){
+    .apple {
+        height: 100px;
+        width: 100%;
+        padding: 0px 8px;
+    }
+
+    .appleone {
+        margin-left: 0px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .appletwo {
+        font-size: 50px;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .applethree {
+        width: 100%;
+        color: rgb(161, 161, 161);
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .mango {
+        justify-content: center;
+        gap: 30px;
+        font-size: 20px;
+    }
+
+    .mangoone {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    select {
+        font-size: 18px;
+        margin-left: 0px;
+        padding: 4px 0px;
+
+    }
+
+    .orange {
+        height: 350px;
+        padding: 30px;
+    }
+
+    .orangeone {
+        height: 360px;
+        width: 100%;
+    }
+
+    .orangethree {
+        height: fit-content;
+        width: fit-content;
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+        padding: 0px 6px;
+    }
+
+    .orangefour {
+        font-size: 15px;
+        font-weight: 500;
+        width: 70%;
+        padding: 4px;
+        background-color: rgba(69, 66, 63, .4);
+    }
+
+
+    .banana {
+        /* display: none; */
+        gap: 15px;
+        height: 50px;
+        padding: 5px;
+    }
+
+    .cover {
+        gap: 5px;
+    }
+
+    .bananaone {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .bananatwo {
+        font-size: 17px;
+    }
+
+    .pinetwo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .litchi {
+        height: fit-content;
+        gap: 9px;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .litchione {
+        height: fit-content;
+        font-size: 10px;
+    }
+
+
+    .one {
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .two {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .redone {
+        height: 70px;
+        gap: 7px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .detail {
+        gap: 6px;
+        padding: 0px;
+        font-size: 10px;
+    }
+    .five{
+        font-size: 25px;
+    }
+    .six{
+        font-size: 18px;
+    }
+
+    .image {
+        height: 55px;
+        width: 55px;
+        gap: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .four {
+        padding: 0px;
+        margin: 0px;
+        gap: 10px;
+    }
+
+    .pink {
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .pinkone {
+        padding: 5px;
+        font-size: 35px;
+
+    }
+
+    .pinktwo {
+        font-size: 20px;
+    }
+
+    .pinkthree {
+        height: 40px;
+        width: auto ;
+    }
+
+
+    .greenone {
+        font-size: 35px;
+        gap: 10px;
+    }
+
+    .greentwo {
+        background-color: lightgray;
+        width: fit-content;
+        height: fit-content;
+    }
+    .searchimg{
+        border: none;
+        height: 32px;
+        width: 35px;
+        display: flex;
+    }
+    
+    .greenthree {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .input {
+        height: 13px;
+
+    }
+
+    
+
+    .gauva {
+        color: aliceblue;
+        padding: 5px;
+        height: 45px;
+        justify-content: space-between;
+        background-color: rgb(84, 57, 126);
+        flex-direction: row;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .gauvaleft {
+        display: none;
+        padding: 0px;
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gauvaright {
+        font-size: 12px;
+        /* padding: 10px; */
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width:480px) {
+    .apple {
+        height: fit-content;
+        padding: 16px 8px;
+    }
+
+    .appleone {
+        margin-left: 0px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .appletwo {
+        font-size: 30px;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .applethree {
+        width: 100%;
+        color: rgb(161, 161, 161);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .mango {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .mangoone {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+
+    select {
+        font-size: 12px;
+        margin-left: 0px;
+        padding: 4px 0px;
+
+    }
+
+    .orange {
+        padding: 10px;
+    }
+
+    .orangeone {
+        height: 300px;
+        width: 100%;
+    }
+
+    .orangethree {
+        height: fit-content;
+        width: fit-content;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        padding: 0px 6px;
+    }
+
+    .orangefour {
+        font-size: 12px;
+        font-weight: 500;
+        width: 60%;
+        padding: 4px;
+        background-color: rgba(69, 66, 63, .4);
+    }
+
+
+    .banana {
+        gap: 5px;
+        height: 50px;
+        padding: 5px;
+    }
+
+    .cover {
+        gap: 0px;
+    }
+
+    .bananaone {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .bananatwo {
+        font-size: 14px;
+    }
+
+
+
+    .pinetwo {
+        height: 30px;
+    }
+
+    .litchi {
+        height: fit-content;
+        gap: 5px;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .litchione {
+        height: fit-content;
+        font-size: 10px;
+    }
+
+
+    .one {
+        padding: 5px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .two {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .redone {
+        height: 70px;
+        gap: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .detail {
+        gap: 10px;
+        padding: 0px;
+        font-size: 10px;
+    }
+
+    .image {
+        height: 40px;
+        width: 40px;
+        gap: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .four {
+        padding: 0px;
+        margin: 0px;
+        gap: 10px;
+    }
+
+    .pink {
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .pinkone {
+        font-size: 20px;
+
+    }
+
+    .pinktwo {
+        font-size: 10px;
+    }
+
+    .pinkthree {
+        height: 40px;
+        width: 130px;
+    }
+
+
+    .greenone {
+        font-size: 25px;
+    }
+
+    .greentwo {
+        width: 70px;
+        height: 15px;
+    }
+
+    .greenthree {
+        font-size: 10px;
+    }
+
+    .input {
+        height: 10px;
+
+    }
+
+    .searchimg {
+        display: none;
+    }
+
+    .gauva {
+        color: aliceblue;
+        gap: 4;
+        height: 30px;
+        background-color: rgb(84, 57, 126);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .gauvaleft {
+        display: none;
+        padding: 0px;
+        gap: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gauvaright {
+        padding: 10px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
